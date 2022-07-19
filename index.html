@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roteiro animado</title>
+</head>
+
+<body>
+    <div>
+        <main>
+            <h4>
+                Vestibulum at rhoncus erat. Phasellus augue justo, placerat in mattis eget, volutpat eget nunc. Maecenas
+                interdum cursus ex, ut egestas ante vehicula sed. Nam sodales lacus id turpis gravida varius. Duis
+                posuere
+                lacinia placerat. Quisque pulvinar et leo vestibulum pulvinar. Mauris rutrum posuere enim porttitor
+                feugiat.
+                Morbi viverra sollicitudin felis ac suscipit.
+
+                Nulla aliquam, mauris porta aliquet euismod, leo sem cursus dui, eu hendrerit neque nulla accumsan
+                purus. Nulla
+                ullamcorper semper ipsum nec varius. Suspendisse aliquam tellus orci, ac sagittis erat blandit eget.
+                Donec dui
+                metus, maximus a lacus vitae, facilisis accumsan elit. Nullam efficitur orci non cursus auctor. Maecenas
+                imperdiet condimentum orci in interdum. Donec sed hendrerit erat, ultricies molestie nisl.
+
+                Nullam eu nulla libero. Aliquam et libero efficitur, mattis magna quis, hendrerit massa. Morbi molestie
+                mi
+                massa, sed porttitor nisi convallis id. Pellentesque hendrerit lacus porta mi auctor eleifend eu luctus
+                erat.
+                Aenean eu nibh maximus, finibus dolor nec, facilisis ex. Proin et lacus egestas, luctus augue vel,
+                convallis
+                nibh. Maecenas commodo, mi at tempus tincidunt, elit ante dictum lacus, id imperdiet elit sapien vel
+                urna.
+                Quisque eu dui ante. Ut non volutpat magna. Etiam vestibulum vitae tortor sit amet feugiat. Donec sed ex
+                scelerisque, ullamcorper elit vitae, rutrum metus. Morbi sed felis vitae felis tristique feugiat. Mauris
+                sit
+                amet lectus eu lorem mollis pulvinar.
+
+                Quisque interdum sem mi, tincidunt rutrum velit interdum quis. Morbi lorem justo, fermentum nec ornare
+                eget,
+                interdum non risus. Maecenas ac diam tincidunt, imperdiet velit a, semper ex. Donec tempus aliquet
+                ultrices.
+                Pellentesque vitae auctor elit. Maecenas dapibus urna lacus, ac eleifend ante egestas in. Suspendisse
+                potenti.
+
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a mollis neque. Integer tristique
+                varius
+                velit sed tincidunt. Duis justo mi, commodo faucibus tortor in, porttitor ultrices nisl. Duis
+                pellentesque
+                tincidunt ex id aliquet. Proin mauris leo, faucibus eu eros quis, rhoncus aliquet nisl. Lorem ipsum
+                dolor sit
+                amet, consectetur adipiscing elit. Pellentesque finibus faucibus ipsum, eget fermentum ex rhoncus ac.
+
+                Vivamus hendrerit vehicula nunc, sed commodo leo feugiat vitae. Curabitur quis malesuada sem. Donec
+                cursus,
+                felis ac rutrum posuere, ipsum ipsum luctus urna, ac pulvinar lectus quam eu est. Sed eu nunc sed felis
+                laoreet
+                aliquet non quis odio. Donec aliquam sed purus ac pellentesque. Cras metus justo, sodales a lacinia non,
+                feugiat
+                quis ligula. Phasellus a lacus ut enim ornare ullamcorper lobortis eu sem. Nullam tellus justo,
+                pellentesque sed
+                sodales et, tincidunt id ex. Duis elementum sem ex, in suscipit odio dapibus vitae. Ut cursus enim sit
+                amet nunc
+                bibendum pharetra. Nulla lobortis libero ligula, vitae semper nunc consequat eget. Orci varius natoque
+                penatibus
+                et magnis dis parturient montes, nascetur ridiculus mus. Integer tincidunt magna id sem molestie
+                aliquam. Etiam
+                et convallis est, eu condimentum ligula. Curabitur posuere sollicitudin nulla sed tempus.
+
+                Aenean varius pulvinar eros quis pharetra. Quisque mollis tortor convallis nisl tincidunt tincidunt.
+                Nunc dui
+                lacus, scelerisque quis augue eget, aliquet pharetra risus. Nunc accumsan erat at metus fringilla
+                dictum. Nulla
+                sapien ante, accumsan a congue eget, maximus quis dolor. Nulla tristique dolor nisi, at rhoncus turpis
+                aliquam
+                pulvinar. Pellentesque non augue et justo finibus aliquam eget ut lorem. Aliquam vehicula nulla vel
+                libero
+                laoreet posuere. Ut in ante placerat, dignissim ante non, varius mi.
+            </h4>
+        </main>
+    </div>
+
+    <style>
+        * {
+            margin: 0;
+            border: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(58, 56, 56);
+        }
+
+        div {
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+
+        div main {
+            height: 80%;
+            background-color: rgba(255, 255, 255, 0.233);
+            overflow: hidden;
+        }
+
+        h4 {
+            margin-top: 20vh;
+            font-size: 1.5em;
+            white-space: pre;
+            animation: scroll-to-top 80s forwards;
+            animation-delay: 2s;
+        }
+
+        @keyframes scroll-to-top {
+            0% {
+                transform: translateY(0px);
+
+            } 100% {
+                transform: translateY(-70%);
+            }
+        }
+    </style>
+</body>
+
+</html>
