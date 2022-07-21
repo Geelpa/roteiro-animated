@@ -37,7 +37,6 @@ main div {
 
   font-size: 1.1rem;
   font-weight: 600;
-
 }
 .container-title {
   text-align: center;
@@ -54,19 +53,21 @@ main div {
 
 .scene {
   text-align: left;
-  margin: 16px 0;
+  margin: 32px 0;
   text-decoration: uppercase;
   font-size: 1rem;
 }
 
 .reader {
+  margin: 32px 0;
+
   text-align: left;
   margin: 1.25rem 0;
 }
 
 .character {
   text-align: center;
-  margin: 32px 216px 16px 0;
+  margin: 32px 216px 0px 0;
 }
 
 .dialogue {
