@@ -59,22 +59,27 @@ main div {
   text-align: left;
   text-decoration: uppercase;
   font-size: 1rem;
+  margin: 1.25rem;
 }
 
 .reader {
-  margin: 32px 0;
-
+  /* margin: 32px 0; */
+  width: 100%;
   text-align: left;
-  margin: 1.25rem 0;
+  margin: .65rem 0;
 }
 
 .character {
-  text-align: left;
-  margin: 16px 20% 8px 0;
+  width: 50%;
+  text-align: center;
+  margin-top: 24px;
+  /* margin-left: 24px; */
 }
 
 .dialogue {
-  text-align: center;
-  margin: 0px 64px 16px 0;
-  width: 80%;
+  width: 60%;
+  text-indent: center;
+  text-align: left;
+  margin-top: 6px;
+  margin-bottom: 24px;
 }
