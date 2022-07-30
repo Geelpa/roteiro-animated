@@ -9,8 +9,6 @@ function play() {
     audio.currentTime = 0
     audio.pause();
 
-    // if (audio.currentTime < 0) {
-    // }
 
     var element = document.querySelector(".fas")
     element.classList.toggle("fa-volume-mute")

@@ -23,7 +23,6 @@ body {
 }
 
 
-
 body::-webkit-scrollbar {
   display: none;
 }
@@ -67,7 +66,6 @@ main div {
   margin-top: 64px;
   padding: 64px 0;
   border-bottom: 1px solid rgba(66, 66, 66, 0.444);
-
 }
 
 .container-title {
@@ -85,7 +83,6 @@ main div {
   font-size: 1rem;
   font-weight: 600;
   width: 70%;
-
 }
 
 .scene {
@@ -98,7 +95,6 @@ main div {
 }
 
 .reader {
-  /* margin: 32px 0; */
   width: 90%;
   text-align: left;
   margin: .65rem 0;
@@ -107,13 +103,64 @@ main div {
 .character {
   width: 50%;
   text-align: center;
-  margin-top: 16px;
-  margin-left: -64px;
+  margin: 18px 0 0 -64px;
+  /* margin-top: 16px;
+  margin-left: -64px; */
+
 }
 
 .dialogue {
   width: 46%;
+  padding: 0 16px;
   text-align: left;
-  margin-top: 6px;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
+}
+
+
+@media (max-width: 768px) {
+  body {
+    font-size: .85rem;
+    background: rgba(66, 66, 66, 0.444)
+  }
+
+  main {
+    width: 90%;
+  }
+
+  .container-text {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .sinopse,
+  .dialogue,
+  .character,
+  .scene,
+  .reader {
+    font-size: 14px;
+  }
+
+  .sinopse {
+    margin-top: 0px;
+    padding-top: 0px;
+
+  }
+
+  .dialogue {
+    width: 75%;
+  }
+
+  #speaker {
+    height: 64px;
+    width: 216px;
+    margin: 0px 0 0 -18%;
+    transform: scale(.7)
+  }
+
+  #volumeOff {
+    font-size: 14px;
+
+    margin-left: -32px;
+    margin: 32px 0;
+  }
 }
