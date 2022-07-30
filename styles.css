@@ -120,7 +120,7 @@ main div {
 @media (max-width: 768px) {
   body {
     font-size: .85rem;
-    background: rgba(66, 66, 66, 0.444)
+    /* background: rgba(66, 66, 66, 0.444) */
   }
 
   main {
