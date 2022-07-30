@@ -16,15 +16,23 @@
 
 <body>
     <main>
-        <div class="back mt-5 text-center" onclick="play()">
-            <i class="fas fa-volume-mute text-secondary"
-                style="font-size: 56px; text-decoration: none; cursor: pointer;" id="volumeOff"></i>
 
-            <i class="fas fa-volume-up text-dark"
-                style="font-size: 56px; display: none; cursor: pointer; text-decoration: none;" id="volumeOn"></i>
-            <audio id="audio" src="ost.mp3"></audio>
-        </div>
         <div class="container-text sinopse">
+            <div class="mt-2 " style="width: 100%;
+                    display: flex;
+                    align-items: start;
+                    margin-left: 80px;" onclick="play()">
+                    
+                <i class="fas fa-volume-mute" style="font-size: 48px; text-decoration: none; cursor: pointer;"
+                    id="volumeOff">
+                </i>
+
+                <!-- <i class="fas fa-volume-up"
+                    style="font-size: 48px; display: none; cursor: pointer; text-decoration: none;" id="volumeOn">
+                </i> -->
+
+                <audio id="audio" src="ost.mp3"></audio>
+            </div>
             <div class="reader">
                 <p class="character">
                     SINOPSE

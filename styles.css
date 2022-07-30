@@ -40,6 +40,8 @@ main {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
+  padding: 0 0 128px;
 }
 
 main div {
@@ -59,8 +61,6 @@ main div {
     opacity: 1;
   }
 }
-
-
 
 .sinopse {
   margin: 0 1.25rem;

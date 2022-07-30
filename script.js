@@ -1,10 +1,19 @@
 function play() {
     var audio = document.getElementById("audio");
-    audio.play();
 
-    var volumeOff = document.getElementById("volumeOff")
-    var volumeOn = document.getElementById("volumeOn")
+    if (audio.currentTime == 0) {
+        setTimeout(() => {
+            audio.play();
+        }, 2000)
+    }
+    audio.currentTime = 0
+    audio.pause();
 
-    volumeOff.style.display = "none";
-    volumeOn.style.display = "block";
+    // if (audio.currentTime < 0) {
+    // }
+
+    var element = document.querySelector(".fas")
+    element.classList.toggle("fa-volume-mute")
+    element.classList.toggle("fa-volume-up")
+
 }
