@@ -22,6 +22,8 @@ body {
 
 }
 
+
+
 body::-webkit-scrollbar {
   display: none;
 }
@@ -45,6 +47,27 @@ main div {
   flex-direction: column;
   align-items: center;
   width: 60%;
+  animation: fade 4s;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+.sinopse {
+  margin: 0 1.25rem;
+  margin-top: 64px;
+  padding: 64px 0;
+  border-bottom: 1px solid rgba(66, 66, 66, 0.444);
+
 }
 
 .container-title {
