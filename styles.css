@@ -19,9 +19,7 @@ body {
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
-
 }
-
 
 body::-webkit-scrollbar {
   display: none;
@@ -34,12 +32,10 @@ main {
   width: 1024px;
   text-align: center;
   background: rgb(255, 254, 234);
-
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
   padding: 0 0 128px;
 }
 
@@ -87,7 +83,6 @@ main div {
 
 .scene {
   width: 90%;
-
   text-align: left;
   text-decoration: uppercase;
   font-size: 1rem;
@@ -104,9 +99,6 @@ main div {
   width: 50%;
   text-align: center;
   margin: 18px 0 0 -64px;
-  /* margin-top: 16px;
-  margin-left: -64px; */
-
 }
 
 .dialogue {
@@ -116,11 +108,9 @@ main div {
   margin-bottom: 16px;
 }
 
-
 @media (max-width: 768px) {
   body {
     font-size: .85rem;
-    /* background: rgba(66, 66, 66, 0.444) */
   }
 
   main {
@@ -163,6 +153,7 @@ main div {
     margin-left: -32px;
     margin: 32px 0;
   }
+
   div#speaker.mt-2 {
     margin-left: -64px;
   }
